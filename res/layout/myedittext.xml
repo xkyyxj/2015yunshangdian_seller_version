@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+
+
+    <Button
+        android:id="@+id/bt02"
+        android:layout_height="25dp"
+        android:layout_width="25dp"
+        android:scaleType="fitCenter"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/down"
+        />
+
+
+    <EditText
+        android:id="@+id/et01"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textScaleX="1.5"
+        android:numeric="integer"
+        android:editable="true"
+        android:gravity="center"/>
+
+
+
+    <Button
+        android:id="@+id/bt01"
+        android:layout_height="25dp"
+        android:layout_width="25dp"
+        android:scaleType="fitCenter"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/up"
+        />
+
+</LinearLayout>

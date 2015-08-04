@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#fff">
+
+    <ImageView
+        android:id="@+id/ivThumb"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/shop1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ff060305"
+        android:padding="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:id="@+id/tvGoodName"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="商铺名"
+                android:textSize="15sp"
+                android:textColor="#ff060305"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/orangenice"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/stvgood"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="30"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textColor="#ff060305"
+                android:layout_marginTop="15dp"
+                />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/stvdistance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="距离:0.1km"
+                    android:textSize="15sp"
+                    android:textColor="#ff060305"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/stvsendprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="起送价:10.0"
+                    android:textSize="15sp"
+                    android:textColor="#ff060305"
+                    android:layout_marginTop="5dp"/>
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/tvState"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="正在营业"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#fd9a00"
+                    android:layout_marginTop="5dp"/>
+                </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

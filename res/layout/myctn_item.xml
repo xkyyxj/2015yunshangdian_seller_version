@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/storename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="@string/storename"
+        android:textColor="@color/black"
+        android:textSize="16sp" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/storename"
+        android:src="@drawable/line" >
+    </ImageView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="4dip"
+        android:paddingLeft="12dip" >
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/sausages" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/nametag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/itemImage"
+            android:text="@string/goods"
+            android:textColor="@color/black"
+            android:textSize="16sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/pricetag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nametag"
+            android:layout_toRightOf="@+id/itemImage"
+            android:text="@string/price"
+            android:textColor="@color/black"
+            android:textSize="16sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/gname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/nametag"
+            android:text="@string/goodsname"
+            android:textColor="@color/black"
+            android:textSize="16sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gname"
+            android:layout_toRightOf="@+id/pricetag"
+            android:text="@string/pricenum"
+            android:textColor="@color/black"
+            android:textSize="16sp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/collect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/itemImage"
+            android:layout_alignLeft="@+id/pricetag"
+            android:layout_below="@+id/pricetag"
+            android:background="@drawable/shape"
+            android:gravity="center_vertical"
+            android:text="@string/disclt"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/itemImage"
+            android:layout_below="@+id/pricetag"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/collect"
+            android:background="@drawable/shape"
+            android:gravity="center_vertical"
+            android:text="@string/enter"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/deadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line" >
+    </ImageView>
+
+</LinearLayout>

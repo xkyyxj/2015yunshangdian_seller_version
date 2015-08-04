@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/order_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/app_name"/>
+
+    <View
+        android:background="@drawable/line2"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/order_id"/>
+
+    <RelativeLayout
+        android:id="@+id/goods_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time">
+        <ImageView
+            android:id="@+id/shop_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home"/>
+
+        <TextView
+            android:id="@+id/shop_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/shop_pic"
+            android:text="@string/app_name"/>
+
+        <TextView
+            android:id="@+id/goods_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/shop_pic"
+            android:layout_alignBottom="@id/shop_pic"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/goods_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/goods_price"
+            android:layout_alignBottom="@id/shop_pic"
+            android:text="@string/app_name" />
+
+    </RelativeLayout>
+
+    <View
+        android:background="@drawable/line2"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/goods_info"/>
+
+    <TextView
+        android:id="@+id/shop_tele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goods_info"
+        android:text="@string/app_name"/>
+
+    <ImageButton
+        android:id="@+id/confirm_goods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/goods_info"
+        android:background="@drawable/home"/>
+
+    <View
+        android:background="@drawable/line2"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/confirm_goods"/>
+
+</RelativeLayout>

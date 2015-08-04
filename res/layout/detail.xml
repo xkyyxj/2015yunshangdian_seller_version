@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_marginTop="60dp"
+    android:layout_marginBottom="80dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:weightSum="10">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5">
+        <ImageView
+            android:id="@+id/divPicture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/sausages"
+            android:background="#fff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="5"
+        android:weightSum="4">
+        <TextView
+            android:id="@+id/tvDgoodname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="双汇王中王"
+            android:textSize="50px"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:textColor="#ff060305"
+            />
+        <TextView
+            android:id="@+id/dtvdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="口碑：好吃"
+            android:textSize="45px"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:textColor="#ff060305"
+            />
+        <TextView
+            android:id="@+id/tvDprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="￥10.0"
+            android:textSize="45px"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:textColor="#ff060305"
+            />
+
+            <Button
+                android:id="@+id/bbb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="确定"
+                android:textSize="60px"
+                android:layout_weight="1"
+                />
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

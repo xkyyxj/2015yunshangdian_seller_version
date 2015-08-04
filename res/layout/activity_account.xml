@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.administrator.myapplication.AccountActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:background="#4fc0e8"
+        >
+        <ImageButton
+            android:id="@+id/bBack"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/newback"
+            android:background="#4fc0e8"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="160px"
+            android:text="购物车        "
+            android:textSize="70px"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_weight="3"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:background="#fff"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/shop"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:id="@+id/actvshopname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="统一银座"
+            android:textSize="60px"
+            android:layout_gravity="center"
+            android:textColor="#ff060305"
+            android:layout_marginLeft="25dp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ccc"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="408dp"
+        android:background="#fff"
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/lvCFoods"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:divider="#ccc"
+            android:dividerHeight="2dp">
+
+        </ListView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="76px"
+            android:text="配送费：￥0.0"
+            android:gravity="right"
+            android:textSize="35px"
+            android:textColor="#ff060305"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:background="#ccc">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/tvAcount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="总计：￥10.0"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#ff060305"
+            />
+
+            <TextView
+                android:id="@+id/tvAcount2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="还差10元起送"
+                android:textSize="13sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffff1118"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2">
+
+        <Button
+            android:id="@+id/bImput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="结算"
+            android:gravity="center"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

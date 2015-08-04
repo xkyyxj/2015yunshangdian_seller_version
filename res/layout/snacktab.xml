@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff">
+
+
+
+    <TextView
+        android:id="@+id/hometext"
+        android:layout_width="wrap_content"
+        android:layout_height="150px"
+        android:layout_gravity="center_horizontal"
+
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="零食区"
+        android:textSize="50px"
+        android:textColor="#ff060305"
+        android:background="#fff"
+        android:gravity="center"/>
+
+</LinearLayout>
+

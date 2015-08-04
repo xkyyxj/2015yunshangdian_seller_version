@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Easyshopping</string>
+    <string name="title">点我手动输入地址</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">主页</string>
+    <string name="search">搜索</string>
+    <string name="user">个人中心</string>
+    <string name="username">范狗蛋</string>
+    <string name="namehint">用户名</string>
+    <string name="psdhint">密码</string>
+    <string name="namehints">请输入用户名</string>
+    <string name="psdhints">请输入密码</string>
+    <string name="rihints">请再次输入密码</string>
+    <string name="sign">注册</string>
+    <string name="signtitle">注册</string>
+    <string name="myctn">我的收藏</string>
+    <string name="myorder">我的订单</string>
+    <string name="myaddress">管理配送地址</string>
+    <string name="logout">退出登录</string>
+    <string name="aboutus">关于我们</string>
+    <string name="nameexa">乔麦</string>
+    <string name="goods">名称:</string>
+    <string name="price">价格:</string>
+    <string name="goodsname">范狗蛋</string>
+    <string name="pricenum">5.0</string>
+    <string name="collect">加入收藏</string>
+    <string name="disclt">取消收藏</string>
+    <string name="enter">进入店铺</string>
+    <string name="storename">v587230</string>
+    <string name="goodslist">收藏listview</string>
+
+    <!-- home_layout.xml -->
+    <string name="order">排序方式</string>
+    <string name="classes">全部类别</string>
+    <string name="storenear">附近的店铺</string>
+
+    <!-- 手动输入地址popupwindow address_input.xml -->
+    <string name="city">城市</string>
+    <string name="keyad">具体地址</string>
+    <string name="cityhint">请输入城市名</string>
+    <string name="keyadhint">请输入具体地址</string>
+    <!-- ordeer_layout.xml -->
+    <string name="distance">离我最近</string>
+    <string name="easytosent">起送价最低</string>
+    <string name="popular">综合排序</string>
+    <string name="wellserve">评价最高</string>
+    <!-- classes.xml -->
+    <string name="lsmsg">生活服务</string>
+    <string name="allmsg">全部类别</string>
+    <string name="smmsg">生活超市</string>
+    <string name="mdmsg">药品保健</string>
+    <string name="ffmsg">快餐甜食</string>
+    <!-- homeshop_item.xml -->
+    <string name="homestorename">统一银座</string>
+    <string name="dist">距离:</string>
+    <string name="distdist">1.1km</string>
+    <string name="opentime">营业时间:</string>
+    <string name="time">8:00-23:00</string>
+    <string name="forsent">起送价:</string>
+    <string name="priceforsent">10元</string>
+    <string name="state">正在营业</string>
+    <string name="state2">正在营业</string>
+    <string name="loading">加载中……</string>
+    <!-- activity_customer_order_text -->
+    <string name="activity_customer_order_title">我的订单</string>
+    <string name="mystore">我的店铺</string>
+    <string name="myorders">我的订单</string>
+    <string name="findings">发 现</string>
+
+    <!-- activity_login_strings -->
+    <string name="wqch_activity_login_password_hint">请输入密码……</string>
+    <string name="wqch_activity_login_user_hint">请输入用户名……</string>
+    <string name="activity_login_register">点此注册</string>
+    <string name="activity_login_newuser">新用户？</string>
+    <string name="activity_login_success">登陆成功</string>
+    <string name="activity_login_fail">登录失败</string>
+    <string name="activity_login_warning_title">提示</string>
+    <string name="activity_login_sure">确定</string>
+    <string name="activity_login_warning2">您的店铺未通过审核，请重新填写店铺申请</string>
+    <string name="activity_login_warning3">您的店铺还在审核中</string>
+
+    <!-- activity_register_strings -->
+    <string name="activity_register_name">注册店铺</string>
+    <string name="activity_register_shop_name_label">店铺名称</string>
+    <string name="activity_register_shop_category_label">选择分类</string>
+    <string name="activity_register_shop_work_label">主营业务</string>
+    <string name="activity_register_shop_addr_label">详细地址</string>
+    <string name="activity_register_shop_tele_label">  电话   </string>
+    <string name="activity_register_not_change_hint">提交后不可修改</string>
+    <string name="activity_register_login_info">请登陆您的账号，然后才能注册店铺</string>
+    <string name="activity_register_registe_success">注册成功，审核中……</string>
+    <string name="activity_register_registe_fail">注册失败</string>
+    <string name="activity_register_shop_name_repetition">店铺名称已存在，请修改</string>
+
+    <!-- activity_edit_user_info_strings -->
+    <string name="activity_edit_user_info_user_pic">店铺图像</string>
+    <string name="activity_edit_user_name">店铺名称</string>
+    <string name="activity_edit_user_info_addr">店铺地址</string>
+    <string name="activity_edit_user_info_tele">联系电话</string>
+    <string name="activity_edit_user_info_work_time">营业时间</string>
+    <string name="activity_edit_user_info_acc_mo">起送价</string>
+    <string name="activity_edit_user_info_send_mo">配送价</string>
+    <string name="activity_edit_user_info_stop_work">暂停营业</string>
+    <string name="activity_edit_user_info_pic_source_cho">选择图片来源</string>
+    <string name="activity_edit_user_info_cancel">取消</string>
+    <string name="activity_edit_user_info_start_time">起始时间</string>
+    <string name="activity_edit_user_info_end_time">结束时间</string>
+    <string name="activity_edit_user_info_time_wrong">请确保开始时间早于结束时间</string>
+    <string name="activity_edit_user_info_pic_up_wr">上传图片失败</string>
+    <string name="activity_edit_user_info_info_up_wr">信息上传失败</string>
+    <string name="activity_edit_user_info_info_up_sc">信息上传成功</string>
+
+    <!-- activity_register_user_strings -->
+    <string name="activity_register_user_name_hint">输入用户名</string>
+    <string name="activity_register_user_pass_hint">输入密码</string>
+    <string name="activity_register_user_re_pass_hint">重新输入密码</string>
+    <string name="activity_register_user_no_re">取消</string>
+    <string name="activity_register_user_registe_success">注册成功</string>
+
+    <!-- activity_shop_info_strings -->
+    <string name="activity_shop_info_sell_count_label">总销售量</string>
+    <string name="activity_shop_info_comm_count_label">用户评价</string>
+    <string name="activity_shop_info_shop_name_label">商店名称</string>
+    <string name="activity_shop_info_shop_addr_label">地址</string>
+    <string name="activity_shop_info_shop_tele_label">联系电话</string>
+    <string name="activity_shop_info_shop_time_label">营业时间</string>
+    <string name="activity_shop_info_shop_acc_mo_label">起送价</string>
+    <string name="activity_shop_info_shop_send_mo_label">配送价</string>
+    <string name="activity_shop_info_shop_state_label">营业状态</string>
+    <string name="activity_shop_info_working">正在营业中</string>
+    <string name="activity_shop_info_not_working">暂停营业</string>
+
+    <!-- activity_comment_strings -->
+    <string name="activity_comment_loading">加载中</string>
+    <string name="activity_comment_load_error">加载错误</string>
+    <string name="activity_comment_load_success">加载完成</string>
+
+    <!-- activity_finish_order_layout_strings -->
+    <string name="wqch_finish_order_finish_info">已完成</string>
+    <string name="wqch_finish_order_order_info">订单详情</string>
+    <string name="wqch_finish_order_my_comm_label">我的评论</string>
+    <string name="wqch_finish_order_waiting">待处理</string>
+    <string name="wqch_finish_order_finished">已处理</string>
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+    <string name="title_activity_finished_order_item">FinishedOrderItemActivity</string>
+
+    <!-- activity_finished_order_item_strings -->
+    <string name="wqch_activity_finished_order_item_no_comm">用户未评价</string>
+    <string name="wqch_activity_finished_order_item_add_comm">我要评价</string>
+    <string name="order_id_text_label">订单号：</string>
+    <string name="receiver_customer_name_label">收获人：</string>
+    <string name="customer_tele_label">手机号码：</string>
+    <string name="receiver_addr_text_label">收货地址：</string>
+    <string name="pay_method_label">支付方式：</string>
+    <string name="order_time_label">下单时间：</string>
+    <string name="send_mo_text_label">配送费</string>
+    <string name="total_price_label">合计</string>
+    <string name="other_infomation">备注</string>
+
+    <!-- activity_waiting_order_item_strings -->
+    <string name="activity_waiting_order_item_new_order">正在等待卖家接单</string>
+    <string name="activity_waiting_order_item_no_accept">正在等待卖家配送</string>
+    <string name="activity_waiting_order_item_accepted">卖家正在卖力配送中</string>
+    <string name="activity_waiting_order_item_cannot_cancel">卖家已接单，不可取消订单</string>
+    <string name="activity_waiting_order_item_info">提示</string>
+    <string name="activity_waiting_order_item_cancel_order_success">订单取消成功</string>
+    <string name="activity_waiting_order_item_confirm">确认</string>
+    <string name="activity_waiting_order_item_sending_part_one">卖家配送中（</string>
+    <string name="activity_waiting_order_item_sending_part_two">分钟以前）</string>
+    <string name="activity_waiting_order_item_sending_part_three">小时</string>
+
+    <!-- activity_add_comment_strings -->
+    <string name="activity_add_comment_good_comm_text">给商家点个赞！</string>
+    <string name="activity_add_comment_bad_comm_text">商家有待改进！</string>
+    <string name="activity_add_comment_commint_text">提交</string>
+    <string name="activity_add_comment_comm_content_label">评论：</string>
+    <string name="activity_add_comment_no_content_err">请输入评论内容</string>
+    <string name="activity_add_comment_no_comm_state_err">请点击按钮选择好评或者差评</string>
+    <string name="activity_add_comment_successful">评论成功</string>
+    <string name="activity_add_comment_no_repeat">您已评论，请不要重复评论！</string>
+    <string name="activity_add_comment_failed">评论失败，请检查网络连接</string>
+    <string name="title_activity_add_comment">AddCommentActivity</string>
+    <string name="activity_add_comment_title">评论</string>
+    <string name="title_activity_waiting_order_item">WaitingOrderItemActivity</string>
+    <string name="title_activity_customer_order">CustomerOrderActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_send_info_area_hint">请输入信息（不超过100字）</string>
+    <string name="title_activity_shop_news">ShopNewsActivity</string>
+
+    <!-- send_news_fragment -->
+    <string name="send_message_fragment_title">活动</string>
+    <string name="send_successful">发送成功</string>
+    <string name="send_failed">发送失败</string>
+
+    <!-- activity_shop_news -->
+    <string name="customer_shop_news_title">商家活动</string>
+    <string name="activity_shop_news_loading_success">加载成功</string>
+    <string name="activity_shop_news_loading_fail">加载失败</string>
+
+    <!-- address_layout.xml -->
+    <string name="titletitle">个人信息</string>
+    <string name="usernamename">用户名</string>
+    <string name="name">未登录</string>
+    <string name="add">添加收货人信息</string>
+    <!-- address_item.xml -->
+    <string name="usernamesample">小A</string>
+    <string name="tel_num">1836611****</string>
+    <string name="addsample">和平巷幸福里</string>
+
+    <!-- addinput_layout.xml -->
+    <string name="receiver">收货人姓名</string>
+    <string name="telhint">配送员联系您的电话</string>
+     <string name="receiverhint">请输入姓名</string>
+    <string name="tel">电话</string>
+    <string name="addhead">地址</string>
+    <string name="addhint">请填写详细送货地址</string>
+
+    <!-- 购物车订单 -->
+    <string-array name="types">
+        <item>热榜</item>
+        <item>零食区</item>
+        <item>日化区</item>
+        <item>果蔬区</item>
+    </string-array>
+    <string-array name="foods">
+        <item>名称：双汇火腿肠（30g）</item>
+        <item>名称：双汇火腿肠（120g）</item>
+        <item>名称：双汇火腿肠1（30g）</item>
+        <item>名称：双汇火腿肠2（30g）</item>
+        <item>名称：双汇火腿肠3（30g）</item>
+        <item>名称：双汇火腿肠4（30g）</item>
+        <item>名称：双汇火腿肠5（30g）</item>
+    </string-array>
+    <string-array name="prices">
+        <item>价格：￥2.0</item>
+        <item>价格：￥10.0</item>
+        <item>价格：￥2.0</item>
+        <item>价格：￥2.0</item>
+        <item>价格：￥2.0</item>
+        <item>价格：￥2.0</item>
+        <item>价格：￥2.0</item>
+    </string-array>
+    <string-array name="singlep">
+        <item>2</item>
+        <item>10</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="usernames">
+        <item>孔维圣</item>
+        <item>夏泽宇</item>
+        <item>老板</item>
+        <item>春哥</item>
+    </string-array>
+    <string-array name="times">
+        <item>送货速度：10分钟 2015.7.1</item>
+        <item>送货速度：10分钟 2015.7.1</item>
+        <item>送货速度：10分钟 2015.7.1</item>
+        <item>送货速度：10分钟 2015.7.1</item>
+    </string-array>
+    <string-array name="comments">
+        <item>外卖小哥很帅，但肉越来越少</item>
+        <item>外卖小哥很帅，但肉越来越少</item>
+        <item>外卖小哥很帅，但肉越来越少</item>
+        <item>外卖小哥很帅，但肉越来越少</item>
+    </string-array>
+
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_order">OrderActivity</string>
+    <string name="title_activity_edit">EditActivity</string>
+
+</resources>

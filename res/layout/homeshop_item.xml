@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/store_pc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/sausages" >
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/storename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/homestorename"
+                android:textColor="@color/black"
+                 android:ellipsize="marquee"
+                android:textSize="16sp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/dist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dist"
+                android:textColor="@color/black"
+                 android:ellipsize="marquee"
+                android:textSize="14sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/distdist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/distdist"
+                android:textColor="@color/black"
+                android:textSize="14sp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/opentime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opentime"
+                android:textColor="@color/black"
+                 android:ellipsize="marquee"
+                android:textSize="14sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                 android:ellipsize="marquee"
+                android:text="@string/time"
+                android:textColor="@color/black"
+                android:textSize="14sp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/forsent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forsent"
+                android:textColor="@color/black"
+                 android:ellipsize="marquee"
+                android:textSize="14sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/priceforsent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/priceforsent"
+                android:textColor="@color/black"
+                 android:ellipsize="marquee"
+                android:textSize="14sp" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.7"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="3dp" >
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textColor="@color/orange"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

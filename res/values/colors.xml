@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title_blue">#4ec1e8</color>
+    <color name="yellow">#FFD700</color>
+    <color name="orange">#EE7600</color>
+    <color name="gray">	#7a7a7a</color>
+    <color name="green">#98FB98</color>
+    <color name="purple">#9932CC</color>
+    <color name="brown">#8B5A00</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="trans">#00000000</color>
+      <color name="tabbg">#d7d6d6</color>
+      <color name="ac_edit_user_info_text_de_co">#666666</color>
+    <color name="ac_edit_user_info_time_color">#000</color>
+
+</resources>

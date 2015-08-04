@@ -1,0 +1,291 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.example.administrator.myapplication.OrderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:orientation="horizontal"
+        android:background="#4fc0e8"
+        android:id="@+id/ol1"
+        >
+
+        <ImageButton
+            android:id="@+id/ibBack"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/newback"
+            android:background="#4fc0e8"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="160px"
+            android:text="确认订单      "
+            android:textSize="70px"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_weight="3"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ol2"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_below="@+id/ol1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:id="@+id/reciever"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="乔麦"
+                    android:textSize="50px"
+                    android:gravity="center"
+                    android:textColor="#ff060305"/>
+
+                <TextView
+                    android:id="@+id/tel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="18366111234"
+                    android:gravity="center"
+                    android:textSize="50px"
+                    android:textColor="#ff060305"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/add"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="齐鲁软件学院"
+                    android:gravity="center"
+                    android:textSize="50px"
+                    android:textColor="#ff060305"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <ImageButton
+                android:id="@+id/ibet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/revise"
+                android:layout_gravity="center"
+                android:background="#fff"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/oiv1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ccc"
+        android:layout_below="@+id/ol2"/>
+
+    <LinearLayout
+        android:id="@+id/ol3"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_below="@+id/oiv1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shop"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/otvshopname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="统一银座"
+                android:textSize="50px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff060305"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/oiv6"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ccc"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/ol3"/>
+
+    <LinearLayout
+        android:id="@+id/ol4"
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:layout_below="@+id/oiv6"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="408px">
+
+            <ListView
+                android:id="@+id/lvOrderFoods"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                >
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="92px"
+            android:orientation="vertical"
+            android:background="#fff">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ccc"/>
+            <TextView
+                android:id="@+id/otvpsend"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="配送费：￥0.00"
+                android:textSize="40px"
+                android:layout_marginTop="5dp"
+                android:textColor="#ff060305"
+                android:gravity="left"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/oiv2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ccc"
+        android:layout_below="@+id/ol4"/>
+
+    <LinearLayout
+        android:id="@+id/ol5"
+        android:layout_width="match_parent"
+        android:layout_height="308px"
+        android:layout_below="@+id/oiv2"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/payway"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:divider="#ccc"
+            >
+            <RadioButton
+                android:id="@+id/online"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="在 线 支 付"
+                android:textSize="50px"
+                android:textColor="#ff060305"/>
+            <RadioButton
+                android:id="@+id/onhand"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="货 到 付 款"
+                android:textSize="50px"
+                android:textColor="#ff060305"/>
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/ol5"
+        android:orientation="horizontal"
+        android:background="#ccc">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tvAcount6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 10.0"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ff060305"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2">
+
+            <Button
+                android:id="@+id/bImput"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="确认下单"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

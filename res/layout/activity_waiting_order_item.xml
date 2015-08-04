@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <include
+        android:id="@+id/temp_title_bar"
+        layout="@layout/my_title_bar"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/waiting_state_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bingo"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/temp_title_bar"
+        android:text="@string/wqch_finish_order_finish_info"/>
+
+    <View
+        android:id="@+id/temp_line1"
+        android:layout_below="@id/waiting_state_text"
+        android:layout_width="fill_parent"
+        android:background="@drawable/line"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_height="2dp"/>
+
+    <TextView
+        android:id="@+id/wait_shop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/temp_line1"
+        android:text="@string/app_name"
+        android:drawableLeft="@drawable/bingo"/>
+
+    <View
+        android:id="@+id/temp_line2"
+        android:layout_below="@id/wait_shop_name"
+        android:layout_width="fill_parent"
+        android:background="@drawable/line"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_height="2dp"/>
+
+    <RelativeLayout
+        android:id="@+id/operate_order"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp">
+
+        <ImageButton
+            android:id="@+id/cancel_order_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/cancel_order"/>
+
+        <ImageButton
+            android:id="@+id/confirm_goods_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/confirm_goods"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/wait_order_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/operate_order"/>
+
+    <View
+        android:id="@+id/temp_line5"
+        android:layout_above="@id/wait_order_info"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="fill_parent"
+        android:background="@drawable/line"
+        android:layout_height="2dp"/>
+
+    <TextView
+        android:id="@+id/wait_order_info_label"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:drawableLeft="@drawable/bingo"
+        android:layout_marginLeft="10dp"
+        android:layout_above="@id/temp_line5"
+        android:text="@string/wqch_finish_order_order_info"/>
+
+    <View
+        android:id="@+id/temp_line4"
+        android:layout_above="@id/wait_order_info_label"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="fill_parent"
+        android:background="@drawable/line"
+        android:layout_height="2dp"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/temp_line4"
+        android:layout_below="@id/temp_line2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/total_price_label"
+            android:layout_alignParentBottom="true"/>
+
+        <TextView
+            android:id="@+id/total_price_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/other_information_label"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_above="@id/total_price_text"
+            android:text="@string/send_mo_text_label"/>
+
+        <TextView
+            android:id="@+id/send_mo_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/total_price_text"
+            android:layout_alignParentRight="true"/>
+
+        <ListView
+            android:id="@+id/finish_goods"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_above="@id/send_mo_text"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

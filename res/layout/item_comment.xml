@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="姓名"
+            android:textSize="15sp"
+            android:textColor="#ff060305"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:id="@+id/ivGood"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/orangenice"
+            android:layout_weight="5"
+            android:layout_gravity="left"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="送货速度：10分钟 2015.7.1"
+            android:textSize="15sp"
+            android:textColor="#ff060305"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tvCom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="外卖小哥很帅，但肉越来越少"
+            android:textSize="15sp"
+            android:textColor="#ff060305"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="10dp"
+
+
+            />
+
+        </LinearLayout>
+
+
+</LinearLayout>

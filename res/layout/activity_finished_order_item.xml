@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/temp_finish_order_shop_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bingo"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:text="@string/wqch_finish_order_finish_info"/>
+
+    <View
+        android:id="@+id/temp_line1"
+        android:layout_below="@id/temp_finish_order_shop_name_label"
+        android:layout_width="fill_parent"
+        android:background="@drawable/line"
+        android:layout_height="2dp"/>
+
+    <TextView
+        android:id="@+id/finish_shop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/temp_line1"
+        android:drawableLeft="@drawable/bingo"/>
+
+    <View
+        android:id="@+id/temp_line2"
+        android:layout_below="@id/finish_shop_name"
+        android:layout_width="fill_parent"
+        android:background="@drawable/line"
+        android:layout_height="2dp"/>
+
+    <FrameLayout
+        android:id="@+id/comm_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/temp_line7"
+        android:layout_above="@id/comm_content"
+        android:layout_width="fill_parent"
+        android:background="@drawable/line"
+        android:layout_height="2dp"/>
+
+    <TextView
+        android:id="@+id/finish_order_comm_label"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:drawableLeft="@drawable/revise"
+        android:layout_marginLeft="10dp"
+        android:layout_above="@id/temp_line7"
+        android:text="@string/wqch_finish_order_my_comm_label"/>
+
+    <View
+        android:id="@+id/temp_line6"
+        android:layout_above="@id/finish_order_comm_label"
+        android:layout_width="fill_parent"
+        android:background="@drawable/line"
+        android:layout_height="2dp"/>
+
+    <TextView
+        android:id="@+id/finish_order_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/temp_line6"/>
+
+    <View
+        android:id="@+id/temp_line5"
+        android:layout_above="@id/finish_order_info"
+        android:layout_width="fill_parent"
+        android:background="@drawable/line"
+        android:layout_height="2dp"/>
+
+    <TextView
+        android:id="@+id/finish_order_info_label"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:drawableLeft="@drawable/bingo"
+        android:layout_marginLeft="10dp"
+        android:layout_above="@id/temp_line5"
+        android:text="@string/wqch_finish_order_order_info"/>
+
+    <View
+        android:id="@+id/temp_line4"
+        android:layout_above="@id/finish_order_info_label"
+        android:layout_width="fill_parent"
+        android:background="@drawable/line"
+        android:layout_height="2dp"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/temp_line4"
+        android:layout_below="@id/temp_line2">
+
+        <TextView
+            android:id="@+id/other_information_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentBottom="true"
+            android:text="@string/other_infomation"/>
+
+        <TextView
+            android:id="@+id/other_information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/other_information_label"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/total_price_label"
+            android:layout_above="@id/other_information_label"/>
+
+        <TextView
+            android:id="@+id/total_price_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/other_information_label"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_above="@id/total_price_text"
+            android:text="@string/send_mo_text_label"/>
+
+        <TextView
+            android:id="@+id/send_mo_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/total_price_text"
+            android:layout_alignParentRight="true"/>
+
+        <ListView
+            android:id="@+id/finish_goods"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_above="@id/send_mo_text"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
